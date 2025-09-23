@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Calculator</title>
+<style>
+body{display:flex;justify-content:center;align-items:center;height:100vh;background:#fdf0f5;font-family:sans-serif;margin:0;}
+.calc{background:#fff;padding:25px;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.1);display:flex;flex-direction:column;align-items:center;}
+input,select,button{margin:8px;padding:10px;width:180px;text-align:center;border-radius:6px;border:1px solid #ccc;font-size:16px;}
+button{background:#ff69b4;color:#fff;border:none;cursor:pointer;transition:.2s;}
+button:hover{background:#ff1493;}
+</style>
+</head>
+<body>
+
+<div class="calc">
+<h2>Mini Calculator</h2>
+<input type="number" id="a" placeholder="First number">
+<select id="op">
+<option>+</option><option>-</option><option>*</option><option>/</option><option>%</option>
+</select>
+<input type="number" id="b" placeholder="Second number">
+<button id="go">Calculate</button>
+</div>
+
+<script>
+const a=document.getElementById('a'),b=document.getElementById('b'),op=document.getElementById('op'),go=document.getElementById('go');
+
+function calc(){
+  const x=+a.value,y=+b.value,operator=op.value;
+  if(x<0||y<0||isNaN(x)||isNaN(y)){alert("Invalid input!");return;}
+  if((operator==='/'||operator==='%')&&y===0){alert("Cannot divide by zero!");return;}
+  let r;
+  switch(operator){case'+':r=x+y;break;case'-':r=x-y;break;case'*':r=x*y;break;case'/':r=x/y;break;case'%':r=x%y;break;}
+  alert(r);
+}
+
+go.addEventListener('click',calc);
+setInterval(()=>alert("Hey! Use me 😉"),30000);
+</script>
+
+</body>
+</html>
