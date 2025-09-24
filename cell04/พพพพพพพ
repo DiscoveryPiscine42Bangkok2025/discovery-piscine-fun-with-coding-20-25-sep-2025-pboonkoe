@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd; /* สีอ่อน */
+      color: #333;
+    }
+    header {
+      background: #f0f0f0;
+      color: #333;
+      text-align: center;
+      padding: 20px;
+      border-bottom: 2px solid #ddd;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: #ffffff;
+      margin-top: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      color: #444;
+    }
+    .project {
+      margin-bottom: 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #f0f0f0;
+      color: #555;
+      margin-top: 20px;
+      border-top: 2px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio ของฉัน</h1>
+    <p>Web Developer | Designer</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>สวัสดีค่ะ ฉันคือ <b>ข้าวหอม คัมคุณ</b> สนใจการพัฒนาเว็บไซต์และออกแบบ UI/UX</p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>เว็บไซต์ตัวอย่างที่พัฒนาด้วย HTML + CSS</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>แอปช่วยผู้ดูแลผู้ป่วย Alzheimer</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: example@email.com</p>
+    <p>GitHub: github.com/yourname</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+</body>
+</html>
