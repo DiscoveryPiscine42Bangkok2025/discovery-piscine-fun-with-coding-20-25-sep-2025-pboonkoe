@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About Me</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    /* สไตล์พื้นหลังท้องฟ้า */
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #87CEEB, #00bcd4); /* ท้องฟ้าคราม */
+      font-family: 'Arial', sans-serif;
+    }
+
+    .about-section {
+      background-color: rgba(255, 255, 255, 0.9); /* พื้นหลังโปร่งแสง */
+      color: #333;
+      text-align: center;
+      padding: 50px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      margin-top: 100px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* สไตล์รูปภาพโปรไฟล์ */
+    .about-img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      margin-bottom: 20px;
+      border: 5px solid #fff; /* ขอบรูป */
+    }
+
+    .section-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #f39c12; /* สีทอง */
+    }
+
+    .about-text {
+      font-size: 1.2rem;
+      margin: 10px 0;
+      color: #2c3e50;
+    }
+
+    .about-text strong {
+      color: #f39c12;
+    }
+
+    /* กล่องข้อความ */
+    .info-box {
+      background-color: #ffffff;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-box h4 {
+      color: #f39c12;
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .info-box p {
+      font-size: 1.2rem;
+      color: #2c3e50;
+    }
+
+    /* การจัดตำแหน่งกล่องข้อความ */
+    .skills-contact {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- About Me Section for Kamkhun -->
+  <div class="about-section">
+    <h2 class="section-title">About Me</h2>
+
+    <!-- รูปภาพจาก Google Drive -->
+    <img src="https://drive.google.com/uc?export=view&id=1ysK1mZ_ppIYs4rORZ7MU9nF2iV3Dm1MN" alt="Kamkhun Kawinkam" class="about-img">
+
+    <!-- ข้อมูลส่วนตัว -->
+    <h3>Kamkhun Kawinkam</h3>
+
+    <!-- คณะและสาขาในบรรทัดเดียว -->
+    <div class="faculty-field">
+      <p><strong>Faculty:</strong> Faculty of Business Administration</p>
+      <p><strong>Field of Study:</strong> Economics and Management</p>
+    </div>
+
+    <p class="about-text"><strong>Currently studying at:</strong> King Mongkut's University of Technology North Bangkok</p>
+  </div>
+
+  <!-- Slide 2: My Skills & Contact for Kamkhun -->
+  <div class="about-section">
+    <h2 class="section-title">My Skills & Contact</h2>
+
+    <!-- กล่องข้อความแรก: My Skills -->
+    <div class="info-box">
+      <h4>My Skills</h4>
+      <p>Quick to learn and adapt to any situation. I thrive in challenging environments and am constantly improving myself to meet new demands.</p>
+    </div>
+
+    <!-- กล่องข้อความที่สอง: Contact Information -->
+    <div class="info-box">
+      <h4>Contact Information</h4>
+      <p><strong>Phone:</strong> 092-996-8319</p>
+      <p><strong>Email:</strong> Kamkhun.kawinkam@gmail.com</p>
+      <p><strong>ID:</strong> kamkhun</p>
+    </div>
+  </div>
+
+  <!-- About Me Section for Pimchanok -->
+  <div class="about-section">
+    <h2 class="section-title">About Me</h2>
+
+    <!-- รูปภาพจาก Google Drive สำหรับ Pimchanok -->
+    <img src="https://drive.google.com/uc?export=view&id=1e_OGh8TpGk7KPbBa33rxyqHdh_hSwnt2" alt="Pimchanok Boonkoedma" class="about-img">
+
+    <!-- ข้อมูลส่วนตัว -->
+    <h3>Pimchanok Boonkoedma</h3>
+
+    <!-- คณะและสาขาในบรรทัดเดียว -->
+    <div class="faculty-field">
+      <p><strong>Faculty:</strong> Faculty of Business Administration</p>
+      <p><strong>Field of Study:</strong> Economics and Management</p>
+    </div>
+
+    <p class="about-text"><strong>Currently studying at:</strong> King Mongkut's University of Technology North Bangkok</p>
+  </div>
+
+  <!-- Slide 4: My Skills & Contact for Pimchanok -->
+  <div class="about-section">
+    <h2 class="section-title">My Skills & Contact</h2>
+
+    <!-- กล่องข้อความแรก: My Skills -->
+    <div class="info-box">
+      <h4>My Skills</h4>
+      <p>สามารถเล่นกีตาร์ได้ และมีทักษะในการปรับตัวในสถานการณ์ต่างๆ ได้ดี</p>
+    </div>
+
+    <!-- กล่องข้อความที่สอง: Contact Information -->
+    <div class="info-box">
+      <h4>Contact Information</h4>
+      <p><strong>Phone:</strong> 0917840924</p>
+      <p><strong>Email:</strong> pbuykeidma@gmail.com</p>
+      <p><strong>ID:</strong> b_e_e_r.</p>
+    </div>
+  </div>
+
+</body>
+</html>
